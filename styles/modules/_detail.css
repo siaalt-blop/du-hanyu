@@ -1,0 +1,53 @@
+.detail__title {
+  font-weight: 900;
+  font-family: var(--font-alt);
+  font-size: var(--fs-section-title-alt);
+  line-height: var(--lh-tight);
+}
+
+/* Clearfix solo cuando hay floats */
+.detail__body--with-float::after {
+  content: ""; display: table; clear: both;
+}
+
+/* FIGURA FLOTADA (se coloca antes del primer párrafo) */
+.detail__media {
+  margin: 0;
+}
+
+.detail__media--left {
+  float: left;
+  width: min(38%, 150px);
+  margin: 0 1rem 0.75rem 0;
+}
+
+.detail__img {
+  display: block;
+  max-width: 130px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.detail__lead {
+  margin-bottom: .75rem;
+}
+
+.detail__para {
+  margin-bottom: .75rem;
+}
+
+.detail__actions {
+  margin-top: 1rem;
+}
+
+/* Responsive -> desactiva float en móviles */
+@media (max-width: 680px) {
+  .detail__media--left {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}

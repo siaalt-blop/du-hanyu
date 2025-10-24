@@ -1,0 +1,62 @@
+:root {
+  /* Paleta */
+  --color-bg: #ffffff;          /* fondo blanco */
+  --color-text: #333333;        /* texto principal */
+  --color-muted: #d9d9d9;       /* texto alternativo / desactivado */
+  --color-muted-alt: #D9D9D9;
+  --color-muted-lead: #4A4A4A;
+  --color-primary: #220219;     /* morado oscuro */
+  --color-secondary: #4A4A4A; 
+  --color-accent: #004466;      /* acento (enlaces/botones) */
+  --color-accent-alt: #bde9ff;
+
+  /* Tipografía */
+  --font-main: "Merriweather", Georgia, "Times New Roman", serif;
+  --font-alt: "Inter", system-ui, -apple-system, Segoe UI, Roboto,
+              "Helvetica Neue", "Noto Sans", sans-serif;
+
+  /* Tamaños y ritmo vertical */
+  --fs-body: 18px;
+  --fs-main-title: 48px;
+  --fs-main-lead: 19px;
+  --fs-section-title: 24px;
+  --fs-section-title-alt: 28px;
+  --fs-section-summary: 20px;
+  --fs-link: 16px;
+  --fs-link-footer: 13px;
+  --fs-brand-latin: 20px;        /* "Hanyu" en header (Inter 20) */
+  --fs-brand-latin-footer: 16px; /* "Hanyu" en footer (Inter 16) */
+
+  --fs-brand-han: 20px;          /* hanzis en header */
+  --fs-brand-han-footer: 16px;   /* hanzis en footer */
+
+  --fs-hero-title: 42px;         /* "¡Hola, somos…" */
+
+  /* Interlineado / tracking */
+  --lh-default: 2;             /* interlineado general */
+  --lh-tight: 1.5;
+  --track-links: 0.09em;         /* 9% para links del header */
+  --track-brand-han: 0.20em;     /* 20% para hanzis */
+
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+
+  /* Grid 12 columnas (gutter 20) */
+  --container-max: 1440px;
+  --container-min: 530px;
+  --grid-columns: 12;
+  --grid-gutter: 1.12px;
+
+  /* Ancho teórico de una columna dentro del container */
+  --grid-col: calc(
+    (min(100%, var(--container-max)) - (var(--grid-columns) - 1) * var(--grid-gutter))
+    / var(--grid-columns)
+  );
+
+  --pad-header-cols: 1;          /* 1 columna + gutter a cada lado */
+  --pad-content-cols: 3;         /* 3 columnas + gutter a cada lado */
+  --pad-footer-cols: 4;          /* 1 columna + gutter a cada lado */
+}

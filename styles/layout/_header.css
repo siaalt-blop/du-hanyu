@@ -1,0 +1,29 @@
+.site-header {
+  background: var(--color-surface);
+  height: 85px;
+  align-content: center;
+  font-family: var(--font-alt);
+}
+
+.site-header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: var(--space-s);
+}
+
+.site-header__nav {
+  display: flex;
+  gap: var(--space-m);
+}
+
+.site-header__link {
+  font-size: var(--fs-link);
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.site-header__link:hover { 
+  color: var(--color-accent);
+}

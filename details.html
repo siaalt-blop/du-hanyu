@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Dú Hànyǔ — NPCR 2 (ed. 2)</title>
+  <meta name="description" content="Dú Hànyǔ: plataforma colaborativa para aprender chino con noticias, recursos y contribuciones de la comunidad.">
+  
+  <link rel="icon" href="public/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="public/icons/apple-touch-icon.png">
+  <link rel="manifest" href="public/site.webmanifest">
+  
+  <link rel="stylesheet" href="styles/styles.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container container--header site-header__row">
+      <div class="brand site-header__brand">
+        <a href="index.html">
+          <span class="brand__text brand__text--han">读汉语</span>
+          <span class="brand__text brand__text--latin">DÚ HÁNYǓ</span>
+        </a>
+      </div>
+      <nav class="site-header__nav">
+        <a class="site-header__link" href="news.html">Noticias</a>
+        <a class="site-header__link" href="resources.html">Recursos</a>
+        <a class="site-header__link" href="collaborate.html">Colabora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container container--content">
+    <!-- Hace falta el <div> para poder maquetar la flecha de volver atrás -->
+    <div class="go-back"><a href="resources.html"><span>← Volver atrás</span></a></div>
+
+    <header class="main-head">
+      <h1 class="main-head__title">NPCR 1 (ed. 2)</h1>
+      <p class="main-head__lead">
+        Nueva edición del primer volumen de la afamada serie “New Practical Chinese Reader”.
+      </p>
+    </header>
+
+    <section class="detail">
+      <div class="detail__body detail__body--with-float">
+        <figure class="detail__media detail__media--left">
+          <img src="assets/images/npcr-1-v2.jpg" alt="Portada de NPCR 1 (ed. 2)" class="detail__img">
+        </figure>
+
+        <p class="detail__lead">
+          Esta segunda edición es uno de los libros más usados para empezar a aprender mandarín. 
+          Incluye 14 lecciones con diálogos, vocabulario, explicaciones gramaticales, ejercicios prácticos y lecturas culturales. <!-- :contentReference[oaicite:3]{index=3} -->
+        </p>
+
+        <p class="detail__para">
+          Cada lección se centra en situaciones cotidianas (presentarse, comprar, viajar, estudiar), y ofrece audios grabados por hablantes nativos. 
+          Es ideal tanto para autodidactas como para clases en grupo.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="detail__title">Vídeo introductorio</h2>
+      <figure>
+        <video controls width="100%">
+          <source src="assets/video/npcr-1-v2.mp4" type="video/mp4">
+          Your browser does not support <code>mp4</code>.
+        </video>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer container--footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__top">
+        <div class="brand site-footer__brand">
+          <a href="index.html">
+            <div class="brand__text brand__text--han">读汉语</div>
+            <div class="brand__text brand__text--latin">DÚ HÁNYǓ</div>
+          </a>
+        </div>
+        <nav class="site-footer__nav">
+          <a class="site-footer__link" href="news.html">Noticias</a>
+          <a class="site-footer__link" href="resources.html">Recursos</a>
+          <a class="site-footer__link" href="collaborate.html">Colabora</a>
+        </nav>
+      </div>
+      <div class="site-footer__copyright">© 2025 Dú Hànyǔ — Todos los derechos reservados</div>
+    </div>
+  </footer>
+</body>
+</html>

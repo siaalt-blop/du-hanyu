@@ -1,0 +1,83 @@
+/* Estilos que afectan a todo el sitio web */
+
+body {
+  font-family: var(--font-main);
+  font-size: var(--fs-body);
+  line-height: var(--lh-default);
+  color: var(--color-text);
+  background: var(--color-bg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--fs-hero-title);
+  line-height: var(--lh-tight);
+}
+
+h2 {
+  font-size: var(--fs-section-title);
+  margin-bottom: var(--space-s);
+  font-weight: 600;
+}
+
+ul {
+  margin-left: var(--space-m);
+	list-style: disc;
+}
+
+li {
+  margin: var(--space-xs) 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+main {
+  margin-top: 2.78rem;
+  margin-bottom: 4.17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.67rem;
+}
+
+/* Contenedores con grid */
+.container {
+  max-width: var(--container-max);
+  min-width: var(--container-min);
+  margin-inline: 0;
+}
+
+.container--content {
+  position: relative;
+  padding-inline: calc(
+    var(--pad-content-cols) * var(--grid-col) + var(--pad-content-cols) * var(--grid-gutter)
+  );
+}
+
+.container--header {
+  padding-inline: calc(
+    var(--pad-header-cols) * var(--grid-col) + var(--pad-header-cols) * var(--grid-gutter)
+  );
+}
+
+.container--footer {
+  padding-inline: calc(
+    var(--pad-footer-cols) * var(--grid-col) + var(--pad-footer-cols) * var(--grid-gutter)
+  );
+}

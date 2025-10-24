@@ -1,0 +1,13 @@
+.main-head {
+  text-align: center;
+}
+
+.main-head__title {
+  font-size: var(--fs-main-title);
+  font-weight: 700;
+}
+
+.main-head__lead {
+  font-size: var(--fs-main-lead);
+  color: var(--color-muted-lead);
+}

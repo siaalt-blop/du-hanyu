@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__contents {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-secondary);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-muted);
+}

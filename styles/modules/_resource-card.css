@@ -1,0 +1,53 @@
+.resource-card {
+  background: #fff;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 180px;
+  flex: 1;
+}
+
+.resource-card a {
+  text-decoration: none;
+}
+
+.resource-card:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.resource-card figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.resource-card figcaption {
+  text-align: left;
+}
+
+.resource-card figcaption h2 {
+  margin: 0;
+  line-height: var(--lh-tight);
+}
+
+.resource-card img {
+  width: 100%;
+  max-width: 140px;
+  height: 180px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.resource-card__title {
+  font-family: var(--font-alt);
+  font-size: var(--fs-main-lead);
+  font-weight: 900;
+}
+
+.resource-card__meta {
+  font-size: var(--fs-link-footer);
+  line-height: var(--lh-tight);
+}

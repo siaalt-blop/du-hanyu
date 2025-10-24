@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Dú Hànyǔ — Noticias</title>
+  <meta name="description" content="Dú Hànyǔ: plataforma colaborativa para aprender chino con noticias, recursos y contribuciones de la comunidad.">
+  
+  <link rel="icon" href="public/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="public/icons/apple-touch-icon.png">
+  <link rel="manifest" href="public/site.webmanifest">
+  
+  <link rel="stylesheet" href="styles/styles.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container container--header site-header__row">
+      <div class="brand site-header__brand">
+        <a href="index.html">
+          <span class="brand__text brand__text--han">读汉语</span>
+          <span class="brand__text brand__text--latin">DÚ HÁNYǓ</span>
+        </a>
+      </div>
+      <nav class="site-header__nav">
+        <a class="site-header__link" href="news.html">Noticias</a>
+        <a class="site-header__link" href="resources.html">Recursos</a>
+        <a class="site-header__link" href="collaborate.html">Colabora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container container--content">
+    <header class="main-head">
+      <h1 class="main-head__title">Noticias</h1>
+      <p class="main-head__lead">
+        Mantente al día con lo último del aprendizaje de chino: actualizaciones de apps, nuevos contenidos y tendencias en la enseñanza del idioma.
+      </p>
+    </header>
+
+    <section class="news-list">
+      <article class="news-card">
+        <h2 class="news-card__title">
+          <a href="https://migaku.com/blog/youtube/migaku-is-back-big-updates" target="_blank">Migaku lanza nuevas funciones para aprender caracteres chinos</a>
+        </h2>
+        <p class="news-card__excerpt">
+          Ahora la app incluye un sistema mejorado de tarjetas y repasos personalizados para memorizar hanzi con mayor rapidez.
+        </p>
+        <p class="news-card__more"><a class="news-card__readmore" href="news/migaku-funciones-hanzi.html">Leer más →</a></p>
+      </article>
+
+      <article class="news-card">
+        <h2 class="news-card__title">
+          <a href="https://duchinese.net/blog/2021/04/14/welcome-to-du-chinese/" target="_blank">Du Chinese añade 40 nuevas lecturas para principiantes</a>
+        </h2>
+        <p class="news-card__excerpt">
+          La biblioteca crece con relatos sencillos, audio en dos velocidades y traducción línea por línea.
+        </p>
+        <p class="news-card__more">
+          <a class="news-card__readmore" href="https://duchinese.net/blog/2021/04/14/welcome-to-du-chinese/" target="_blank">
+            Leer más →
+          </a>
+        </p>
+      </article>
+
+      <article class="news-card">
+        <h2 class="news-card__title">
+          <a href="https://www.pleco.com/about/" target="_blank">Pleco 4.0 revoluciona el estudio con su nueva herramienta OCR</a>
+        </h2>
+        <p class="news-card__excerpt">
+          Traduce menús, señales y libros al instante con la cámara del móvil gracias al nuevo reconocimiento optimizado.
+        </p>
+        <p class="news-card__more">
+          <a class="news-card__readmore" href="https://www.pleco.com/about/" target="_blank">
+            Leer más →
+          </a>
+        </p>
+      </article>
+
+      <article class="news-card">
+        <h2 class="news-card__title">
+          <a href="https://www.hellotalk.com/blog/from-language-learner-to-tefl-certification" target="_blank">HelloTalk estrena salas de conversación por niveles HSK</a>
+        </h2>
+        <p class="news-card__excerpt">
+          Conecta con nativos y practica en grupos diseñados para cada nivel de examen oficial.
+        </p>
+        <p class="news-card__more">
+          <a class="news-card__readmore" href="https://www.hellotalk.com/blog/from-language-learner-to-tefl-certification" target="_blank">
+            Leer más →
+          </a>
+        </p>
+      </article>
+
+      <article class="news-card">
+        <h2 class="news-card__title">
+          <a href="https://studycli.org/hsk/the-new-hsk/" target="_blank">Nuevos libros HSK 3.0 llegan al mercado internacional</a>
+        </h2>
+        <p class="news-card__excerpt">
+          Los manuales oficiales actualizados incluyen vocabulario revisado, ejercicios y acceso a audio digital.
+        </p>
+        <p class="news-card__more">
+          <a class="news-card__readmore" href="https://studycli.org/hsk/the-new-hsk/" target="_blank">
+            Leer más →
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <!-- Hacen falta los <div> para poder maquetar la paginación -->
+    <div class="pagination">
+      <div class="pagination__contents"><span>1</span></div>
+    </div>
+  </main>
+
+  <footer class="site-footer container--footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__top">
+        <div class="brand site-footer__brand">
+          <a href="index.html">
+            <div class="brand__text brand__text--han">读汉语</div>
+            <div class="brand__text brand__text--latin">DÚ HÁNYǓ</div>
+          </a>
+        </div>
+        <nav class="site-footer__nav">
+          <a class="site-footer__link" href="news.html">Noticias</a>
+          <a class="site-footer__link" href="resources.html">Recursos</a>
+          <a class="site-footer__link" href="collaborate.html">Colabora</a>
+        </nav>
+      </div>
+      <div class="site-footer__copyright">© 2025 Dú Hànyǔ — Todos los derechos reservados</div>
+    </div>
+  </footer>
+</body>
+</html>

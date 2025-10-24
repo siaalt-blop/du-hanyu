@@ -1,0 +1,35 @@
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-xs);
+}
+
+.brand:hover {
+  cursor: pointer;
+}
+
+.brand a {
+  text-decoration: none;
+}
+
+.brand__text {
+  font-family: var(--font-alt);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.brand__text--latin {
+  font-size: var(--fs-brand-latin);
+  letter-spacing: var(--track-links);
+}
+
+.brand__text--han {
+  font-size: var(--fs-brand-han);
+  letter-spacing: var(--track-brand-han);
+}
+
+.brand__tagline {
+  font-family: var(--font-alt);
+  font-weight: 500;
+  color: var(--color-muted);
+}
